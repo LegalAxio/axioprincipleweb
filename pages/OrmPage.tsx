@@ -92,7 +92,24 @@ const OrmPage: React.FC = () => {
             <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-8 max-w-2xl animate-in fade-in slide-in-from-bottom-12 duration-700">
               Counter <strong>Targeted Defamation</strong> and neutralize <strong>Negative PR</strong> using advanced <strong>SEO</strong>, <strong>SEM</strong>, and <strong>GEO</strong> (Generative Engine Optimization).
             </p>
-            <button onClick={openContact} className="px-8 py-4 bg-[#4ade80] hover:bg-[#5ef095] text-black font-bold rounded-2xl shadow-[0_20px_40px_rgba(74,222,128,0.2)] transition-all transform hover:scale-105 animate-in fade-in slide-in-from-bottom-16 duration-700">Get Free Audit</button>
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+  <button
+    onClick={openContact}
+    className="px-8 py-4 bg-[#4ade80] hover:bg-[#5ef095] text-black font-bold rounded-2xl shadow-[0_20px_40px_rgba(74,222,128,0.2)] transition-all transform hover:scale-105 animate-in fade-in slide-in-from-bottom-16 duration-700"
+  >
+    Get Free Audit
+  </button>
+
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLScIFMm_GHjDZX52Yr0LGFSqAJJyNK2vtV1bLNcdU4TSxF2uNw/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="w-full sm:w-auto px-10 py-4 md:py-5 bg-transparent border border-[#4ade80]/30 hover:bg-[#4ade80]/5 text-[#4ade80] font-bold rounded-2xl md:rounded-[24px] transition-all active:scale-95">
+      Retraction Form
+    </button>
+  </a>
+</div>
           </div>
 
           {/* Graphic Content - Right Side */}
